@@ -47,6 +47,7 @@ header::after {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* So text, buttons, etc., aren't behind overlay */
 header * {
   z-index: 1;
 }
@@ -128,4 +129,26 @@ ul.songs li {
 .centered button {
   transform: scale(1.3);
   margin: 15px;
+}
+
+/* Mobile - same as Bootstrap 4 col-sm */
+@media screen and (max-width: 767px) {
+  header {
+    padding: 50px 0;
+  }
+
+  form {
+    /* Centers input and button since they're display: inline-block */
+    text-align: center;
+  }
+
+  form input {
+    width: 85%;
+  }
+
+  form button {
+    position: static;
+    margin-top: 15px;
+    border: 1px solid #a274fd;
+  }
 }
