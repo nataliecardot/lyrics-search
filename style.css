@@ -144,6 +144,7 @@ ul.songs li {
   form {
     /* Centers input and button since they're display: inline-block */
     text-align: center;
+  }
 
   form button {
     position: static;
