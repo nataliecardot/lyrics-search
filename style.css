@@ -146,6 +146,10 @@ ul.songs li {
     text-align: center;
   }
 
+  form input {
+    margin-bottom: 10px;
+  }
+
   form button {
     position: static;
     margin-top: 15px;
