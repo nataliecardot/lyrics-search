@@ -59,7 +59,7 @@ header h1 {
 form {
   position: relative;
   width: 500px;
-  max-width: 100%;
+  max-width: 85%;
 }
 
 form input {
@@ -137,14 +137,13 @@ ul.songs li {
     padding: 50px 0;
   }
 
+  header h1 {
+    margin: 7px 0 30px;
+  }
+
   form {
     /* Centers input and button since they're display: inline-block */
     text-align: center;
-  }
-
-  form input {
-    width: 85%;
-  }
 
   form button {
     position: static;
