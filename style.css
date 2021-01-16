@@ -83,7 +83,6 @@ form button {
 }
 
 .btn {
-  background-color: #8d56fd;
   border: 0;
   border-radius: 10px;
   color: #fff;
@@ -152,7 +151,7 @@ ul.songs li {
 
   form button {
     position: static;
-    margin-top: 15px;
+    margin-top: 10px;
     border: 1px solid #a274fd;
   }
 }
