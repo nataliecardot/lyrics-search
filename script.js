@@ -81,6 +81,7 @@ form.addEventListener('submit', (e) => {
 });
 
 // Get lyrics button click
+// Since lyrics are being generated through JavaScript after initial DOM loads, and there are multiple buttons, must add event listener onto parent element
 result.addEventListener('click', (e) => {
   const clickedEl = e.target;
 
