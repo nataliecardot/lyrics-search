@@ -81,6 +81,7 @@ form.addEventListener('submit', (e) => {
     alert('Please type in a search term');
   } else {
     searchSongs(searchTerm);
+    search.value = '';
   }
 });
 
